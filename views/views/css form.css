@@ -1,0 +1,63 @@
+h2 {
+    color: rgb(1, 1, 15);
+    border: 2px rgb(236, 11, 11);
+    font-family: cursive;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bodybackground.jpg);
+}
+.formcolors
+{
+    background-color: rgb(18, 1, 49);
+    color:crimson;
+    font-family: 'Dancing Script', cursive;
+    border:1px solid white;
+    font-size: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-image: url(formbackgroundimage.jpg);
+    background-repeat: no-repeat;
+    /* background-position: 1920px; */
+}
+
+#chcolor{
+    color: rgb(14, 1, 1);
+    border: 2px solid rgb(46, 1, 1);
+    padding: 2px;
+    margin: 3px;
+    font-style: italic;
+    font-weight: bold;
+    border-left: 100px;
+    border-right: 100px;
+}
+input[type='submit']
+{
+border: 1px solid forestgreen;
+background-color: blue;
+}
+input[type='reset']
+{
+border: 1px solid forestgreen;
+background-color: rgb(126, 6, 32);
+}
+
+.gty:hover
+{
+    border-color: darkgreen;
+}
+.gty
+{
+    border:1 px solid red;
+}
+input[type='submit']:hover
+{
+    background-color: rgb(3, 63, 26);
+}
+input[type='reset']:hover
+{
+    background-color: rgb(97, 100, 233);
+}

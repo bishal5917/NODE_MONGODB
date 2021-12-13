@@ -1,0 +1,21 @@
+{
+  "name": "mong",
+  "version": "1.0.0",
+  "description": "this is awesome",
+  "main": "mog",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "key"
+  ],
+  "author": "bishal",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.12.12"
+  }
+}

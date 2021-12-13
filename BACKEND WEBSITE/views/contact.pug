@@ -1,0 +1,49 @@
+extends base.pug
+
+block scripts 
+    script(src="bone.js") 
+
+block style 
+    style
+        include ../static/style.css
+
+block content
+    h2 FULFILL DETAILS HERE
+    form.formcolors(action='/contact' method='post')
+      .gty
+        | NAME :
+        input(type='text' name='myname')
+      br
+      .gty
+        | ADDRESS :
+        input(type='text' name='add')
+      br
+      .gty
+        | EMAIL :
+        input(type='email' name='my email')
+      br
+      .gty
+        | GENDER : male
+        input(type='radio' name='gendertype')
+        | female
+        input(type='radio' name='gendertype')
+      br
+      .gty
+        | AGE :
+        input(type='number' name='age')
+      br
+      .gty
+        | WEBSITE :
+        input(type='url' name='YourWebsite')
+      br
+      #chcolor.gty
+        | ARE YOU A HUMAN?
+        input(type='checkbox' checked name='confirm')
+      br
+      .gty
+        | SUBMIT HERE :
+        input(type='submit' name='sumbmit now')
+      br
+      .gty
+        | RESET HERE :
+        input(type='reset' name='reset button')
